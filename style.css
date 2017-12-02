@@ -40,11 +40,12 @@ body{
   margin-left: 10%;
   color: white;
   font-family: 'Lalezar';
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 .project_container{
   background-color: #57ABD4;
+  padding-bottom: 10px;
 }
 .logos_div {
   margin: auto;
@@ -52,10 +53,10 @@ body{
   width: 50%;
   border-radius: 10px;
   background-color: white;
+  margin-bottom: 0px;
 }
 .logos {
   width: 15%;
-
 }
 .trello {
   margin-left: 12%;
@@ -70,6 +71,17 @@ body{
 }
 .portfolio-body {
   position:relative;
+}
+
+.prezi {
+  margin-left: 12%;
+  width: 80%;
+  height: 400px;
+}
+
+.prezi_logo {
+  width: 100px;
+  padding-bottom: 20px;
 }
 .thumbnail_column {
   padding:0;
@@ -143,7 +155,7 @@ body{
   text-align: center;
   color: white;
   font-family: 'Lalezar';
-  font-size: 25px; 
+  font-size: 25px;
 
 }
 
@@ -151,10 +163,22 @@ body{
   width: 100px;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    
-  
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .prezi {
+      margin-left: 12%;
+      width: 80%;
+      height: 100px;
+    }
+
+
+  }
+
+  @media screen and max-width: 480px) {
+    .prezi {
+      height: 100px;
+    }
+
   }
