@@ -1,0 +1,10 @@
+# Todo
+
+# Projects order
+# Fix weather App
+# Finish prezi presentation
+# Fix header menu to link to prezi
+# Prezi @media size
+# Final spell check
+# Intro video
+# David feedback
