@@ -1,0 +1,9 @@
+
+RewriteEngine on
+
+DirectoryIndex index.html index.php index.htm parking-page.html
+RewriteCond %{HTTP_HOST} ^www\.kristof\.online$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/kristof\.online\/" [R=301,L]
+
