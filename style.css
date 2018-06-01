@@ -66,8 +66,10 @@ body{
   margin-left: 27%;
 }
 .certificate {
-  width: 30%;
+  max-width: 350px;
+  height: auto;
   margin-left: 10%;
+  margin-top: 2%;
 }
 .portfolio-body {
   position:relative;
