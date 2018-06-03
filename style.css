@@ -66,8 +66,9 @@ body{
   margin-left: 27%;
 }
 .certificate {
-  max-width: 350px;
+  max-width: 20%;
   height: auto;
+  margin: auto;
   margin-left: 10%;
   margin-top: 2%;
 }
