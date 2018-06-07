@@ -1,3 +1,7 @@
+p {
+  font-family: 'Lalezar';
+  color: white;
+}
 .navbar-dark {
   background-color: #1B2027;
 }
@@ -66,13 +70,14 @@ body{
   margin-left: 27%;
 }
 .certificate {
-  max-width: 20%;
+  max-width: 200px;
   height: auto;
+  display: block;
   margin: auto;
-  margin-left: 10%;
-  margin-top: 2%;
 }
-
+.certificate-label {
+  text-align: center;
+}
 .portfolio-body {
   position:relative;
 }
